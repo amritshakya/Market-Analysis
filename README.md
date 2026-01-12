@@ -21,21 +21,19 @@ Target cadence:
 
 Gaps are expected; abandonment is not.
 
----
-
+```
 ## Repository Structure
 
 Market-Analysis/
-│── notes/ # Raw observations, reactions, links, and early-stage ideas
-│── signals/ # Weekly or monthly synthesis of short-term market direction
-│── theses/ # Durable, long-run beliefs formed from repeated signals
-│── reports/ # Deeper analysis, models, and structured writeups
-│── data/ # Raw and processed datasets used in analysis
-│── scripts/ # Supporting scripts for analysis or automation
-│── README.md
+├── notes/
+├── signals/
+├── theses/
+├── reports/
+├── data/
+├── scripts/
+└── README.md
 
-
-Content may flow upward, but nothing is forced.
+```
 
 ---
 
