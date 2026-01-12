@@ -1,75 +1,68 @@
-# -Market-Analysis
+# Market Analysis Log
 
-## 📌 Overview
-This repository contains tools and scripts for analyzing market trends, stock performance, and financial data. The goal is to provide insights into various financial instruments and sectors, focusing on data-driven investment decisions.
+## Overview
+This repository is a personal market thinking and analysis log.
 
-## 🚀 Features
-- Fetch and analyze stock market data 📈
-- Track trends in the **technology sector** and other industries
-- Perform fundamental and technical analysis
-- Visualize market trends with charts and graphs 📊
-- Automate news aggregation for financial insights 📰
+Its purpose is to document how market views form, evolve, and sometimes break under new information. The focus is not on publishing polished research or generating trading signals, but on building a written record of structured investment thinking over time.
 
-## 🛠️ Setup & Installation
-### **1. Clone the Repository**
-```bash
-git clone https://github.com/amritshakya/Market-Analysis.git
-cd Market-Analysis
-```
-
-### **2. Create a Virtual Environment (Optional but Recommended)**
-```bash
-python -m venv venv  # For Windows
-source venv/bin/activate  # For macOS/Linux
-```
-
-### **3. Install Dependencies**
-```bash
-pip install -r requirements.txt
-```
-
-## 📂 Folder Structure
-```
-Market-Analysis/
-│── data/            # Contains raw and processed data
-│── notebooks/       # Jupyter notebooks for analysis
-│── scripts/         # Python scripts for data fetching and analysis
-│── reports/         # Generated reports and summaries
-│── .gitignore       # Specifies files to ignore in Git
-│── README.md        # Project documentation
-```
-
-## 📊 Data Sources
-- [Yahoo Finance](https://finance.yahoo.com/)
-- [Alpha Vantage](https://www.alphavantage.co/)
-- [News APIs for market news](https://newsapi.org/)
-
-## 🔥 How to Use
-### **Run a Stock Analysis Script**
-```bash
-python scripts/analyze_stocks.py --ticker AAPL
-```
-
-### **Open Jupyter Notebooks for Exploratory Analysis**
-```bash
-jupyter notebook
-```
-
-## 📌 Future Improvements
-- Add machine learning models for predictive analysis 🤖
-- Expand coverage to cryptocurrency markets 🪙
-- Automate daily market summary reports 📝
-
-## 🤝 Contributing
-Feel free to fork this repository, create issues, or submit pull requests to enhance its functionality.
-
-## 📜 License
-This project is licensed under the MIT License.
+Entries range from raw observations and short-term signals to durable theses and deeper analytical reports.
 
 ---
-### **🔗 Stay Connected**
-- 💼 [LinkedIn](https://www.linkedin.com/in/amritshakya/)
-- 📧 Contact: amritshakya@example.com
 
-🚀 Happy Investing & Analyzing!
+## Guiding Principles
+- Consistency matters more than frequency  
+- Partial and imperfect thoughts are expected  
+- Views are allowed to change  
+- Writing is used as a tool for thinking, not performance  
 
+Target cadence:
+- Approximately one mid-week entry
+- Approximately one weekend entry  
+
+Gaps are expected; abandonment is not.
+
+---
+
+## Repository Structure
+
+Market-Analysis/
+│── notes/ # Raw observations, reactions, links, and early-stage ideas
+│── signals/ # Weekly or monthly synthesis of short-term market direction
+│── theses/ # Durable, long-run beliefs formed from repeated signals
+│── reports/ # Deeper analysis, models, and structured writeups
+│── data/ # Raw and processed datasets used in analysis
+│── scripts/ # Supporting scripts for analysis or automation
+│── README.md
+
+
+Content may flow upward, but nothing is forced.
+
+---
+
+## Tooling
+- Markdown (`.md`) files for all writing
+- RStudio or a text editor for quick note entry
+- Scripts and data are used only when they add clarity
+
+This is a writing-first repository.
+
+---
+
+## Data and Sources
+Data sources vary by entry and may include public market data, company filings, macroeconomic releases, and news or research articles. Sources are typically linked directly within notes or reports rather than centralized.
+
+---
+
+## Scope and Limitations
+This repository is not:
+- a daily journal
+- a trading system
+- a research publication
+- optimized for external readers
+
+It is primarily a personal thinking log.
+
+---
+
+## License
+MIT License. Content is personal; reuse with attribution is encouraged.
